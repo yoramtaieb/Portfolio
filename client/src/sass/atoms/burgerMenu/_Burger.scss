@@ -1,0 +1,82 @@
+@import "../../config/variable.scss";
+#App {
+    #page-wrap {
+        text-align: center;
+        overflow: auto;
+        top: 45%;
+        position: relative;
+    }
+}
+
+.bm-item {
+    text-decoration: none;
+    color: #d1d1d1;
+    transition: color 0.2s;
+}
+
+.link1 {
+    color: #0455c0;
+}
+
+.link2 {
+    color: #04318c;
+}
+
+.link3 {
+    color: #031859;
+}
+
+.link4 {
+    color: #010b40;
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 21px;
+    top: 25px;
+}
+
+.bm-burger-bars {
+    background: #fff7e8;
+}
+
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+.bm-cross {
+    background: $black;
+    height: 3vh !important;
+}
+
+.bm-menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #fff7e8;
+    padding: 5%;
+    font-size: 3.5rem;
+    height: 80vh !important;
+    line-height: 1.5;
+    padding-top: 20%;
+}
+
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+.bm-item-list {
+    color: #b8b7ad;
+}
+
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.allIcon {
+    border: 2px solid red;
+    width: 60vw;
+}

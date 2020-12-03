@@ -1,0 +1,12 @@
+.header {
+    position: fixed;
+    height: 10.699001426533524vh;
+    border-bottom: 1px solid #fff7e8;
+    width: 100%;
+    &-iconNav {
+        display: flex;
+        padding-top: 4%;
+        justify-content: flex-end;
+        padding-right: 4%;
+    }
+}
